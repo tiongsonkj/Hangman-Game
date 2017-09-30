@@ -9,8 +9,6 @@
 
 	<p>Guess that movie!</p>
 
-	<p>Choices are StarWars, JurassicPark, or Batman.</p>
-
 	<!-- Letter Guess -->
 	<div id="word"></div>
 
@@ -82,9 +80,7 @@
 						}
 					}
 
-					document.getElementById("guess").innerHTML = word;
-
-					
+					document.getElementById("guess").innerHTML = word;			
 				}
 
 				message();
@@ -96,8 +92,6 @@
 				// this is for when the user does not pick a letter.
 				alert("you DID NOT pick a letter.")
 				}
-
-		
 		};
 
 		message = function() {
